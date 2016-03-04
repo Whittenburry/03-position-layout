@@ -33,16 +33,37 @@ body {
 }
 
 .main {
-  background: blue;
+  width: 75%;
+  margin: 5% auto;
+  overflow: auto;
+}
+
+
+.col-left {
+
+  width: calc(25% - 4rem);
+  margin: 1rem 2rem;
+
   float: left;
 }
 
-.stamp {
-  background: red;
-  margin: auto;
+.col-right {
+
+  margin: 1rem 2rem;
+  width: calc(75% - 4rem);
+  float: left;
   text-align: center;
 }
 
-.heard {
-  background: purple;
+.image {
+  max-width: inherit;
+}
+
+.shittacca {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.you-will-never-get-this-la-la-la-la-la {
+  color: lightgrey;
 }
